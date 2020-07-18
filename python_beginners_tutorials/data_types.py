@@ -1,36 +1,46 @@
-x = 1
-print(x)
+temp_var = 15
+print(temp_var)
 
-# int, float and string
-number = 7
-print(type(number))
-fl_number = 4.5
-print(type(fl_number))
-str_val = "This is just a sample string"
-print(type(str_val))
+temp_var2 = 20
 
 
-# operations
-num1 = 10
-num2 = 25
-num1 = 5.7
-num1 = 5
-num3 = "15"
-print(type(int(num3)))
-print(num1+int(num3))
+temp_var = 25
+print(temp_var+temp_var2)
+
+# int, float, string
+var1 = 14
+print(type(var1))
+var2 = 4.05
+print(type(var2))
+var3 = "This is just a text message"
+print(type(var3))
+
+var3 = 10
+print(type(var3))
+
+print(var1 + var2)
+print(type(var1 + var2))
 
 
-num1 = input("Enter a number here:")
-num1 = int(num1)
-print(num1)
-num2 = 10
-print(num1+num2)
+var1 = 10
+var2 = "20"
+print(type(var2))
+print(type(int(var2)))
+print(var1+int(var2))
+
 
 str1 = "My name is "
 str2 = "Rashid"
 print(str1 + str2)
 
-# Write a program which will take 2 inputs from the user
-# and will perform sum operation between these 2 numbers
-# let say 1st input is 5 and 2nd input is 10, then the output
-# should be 5+10 = 15
+
+# printing age
+age = input("What is your age?")
+print("Your age is %s" % age)
+age = int(age)
+
+var2 = 4
+print(age+var2)
+
+# It will take 2 inputs from the user and will then perform sum operation
+# on those 2 inputs
