@@ -11,9 +11,7 @@
 
 
 
-# 1- Arithmetic operators
-a = 12
-b = 5
+# 1- Assignment Operators
 
 # Addition
 print(f'{a} + {b}: ', a + b)
